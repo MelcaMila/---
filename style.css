@@ -1,0 +1,44 @@
+body {
+  background-color: #ECBADB;
+  font-family: 'Comic Sans MS', sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-image: url('картинки/fon.png'); /* можно заменить на свой */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 28px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.funny-note {
+  font-size: 20px;
+  color:#453A50;
+  margin-bottom: 20px;
+}
+
+.song-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.song-list li {
+  margin: 10px 0;
+}
+
+.song-list a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #B68AE5;
+  background: #fff9d9;
+  padding: 6px 12px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.song-list a:hover {
+  background: #8361A8;
+}
