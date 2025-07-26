@@ -42,3 +42,21 @@ h1 {
 .song-list a:hover {
   background: #8361A8;
 }
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  .song {
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px; /* меньше шрифт для телефона */
+    width: 100%;     /* чтобы не выходило за экран */
+    box-sizing: border-box; /* чтобы паддинги считались внутри */
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
