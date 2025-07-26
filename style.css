@@ -5,7 +5,18 @@ body {
   padding: 40px;
   background-image: url('картинки/fon.png'); /* можно заменить на свой */
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f3cce6;
+}
+
+body {
+  min-height: 100vh;
+  /* Другие стили для body, если нужны */
+}
 }
 
 h1 {
@@ -59,4 +70,11 @@ h1 {
     font-size: 20px;
     text-align: center;
   }
+}
+pre {
+  white-space: pre-wrap;      /* перенос строк, сохраняя пробелы */
+  word-wrap: break-word;      /* перенос длинных слов */
+  overflow-wrap: break-word;  /* для поддержки в разных браузерах */
+  max-width: 100%;            /* не выходит за пределы контейнера */
+  box-sizing: border-box;     /* учитывает паддинги и бордюры */
 }
