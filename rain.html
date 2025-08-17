@@ -2,22 +2,26 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <title>аккорды</title>
-  <style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Дождь | Швец</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <style>
     body {
       background-color: #f3cce6;
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 30px 0; /* отступы сверху и снизу */
+      padding: 30px 0;
       color: #000000;
+      overflow-x: hidden;
     }
     .song {
       background-color: #f3daeb;
-      width: 95vw;           /* почти вся ширина окна */
-      max-width: 1200px;     /* ограничение максимальной ширины */
-      margin: 0 auto;        /* по центру страницы */
-      padding: 30px 40px;    /* внутренние отступы */
-      border-radius: 15px;   /* плавные скругления углов */
+      width: 95vw;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px 40px;
+      border-radius: 15px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       font-size: 18px;
       white-space: pre-wrap;
@@ -28,7 +32,7 @@
       color: #000000;
       font-weight: bold;
       display: inline-block;
-      min-width: 30px;
+      min-width: 40px;
     }
     pre {
       margin: 0;
@@ -43,62 +47,103 @@
       color: #222;
       text-align: left;
     }
+    /* Адаптация для телефонов */
+    @media (max-width: 600px) {
+      body {
+        background: linear-gradient(to bottom, #f3cce6 0%, #f3cce6 60%, transparent 60%);
+        padding: 30px 15px;
+        overflow-x: hidden;
+      }
+      .song {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 20px 15px;
+        text-align: left;
+        border-radius: 15px 15px 15px 15px;
+        font-size: 17px;
+        background-color: #f3daed
+        box-shadow 0 4px 10px rgba(0,0,0,0.1)   
+   }
+    }
   </style>
 </head>
 <body>
-  <h1>Дождь</h1>
-  <div class="song">
-<pre>
+<h1>Дождь</h1>
+<div class="song">
+</pre>
+Каподастр: 6 лад
 
-Припев
-
-Дождь, не трожь мою любовь
-
+Вступление: 
+Припев:
+<span class="chord">Am</span>
+Дождь, не трожь мою любовь.
+         <span class="chord">Em</span>
 Я спрятал далеко, ты не найдёшь
-
+     <span class="chord">Dm</span>
 О чём же ты молчишь?
-
+                           <span class="chord">Am</span>
 О чём поёшь, дождь?
 
 [Куплет 1]
+        <span class="chord">Am</span>
+Пускай мы в разных городах,
+      <span class="chord">Em</span>
+Однажды я с дождём вернусь назад.
+       <span class="chord">Dm</span>
+Не пророни слезы,
+                           <span class="chord">Am</span>
+Укройся от грозы.
 
-Пускай мы в разных городах
-
-Однажды я с дождём вернусь назад
-
-Не пророни слезы
-
-Укройся от грозы
-
-Плохой не трогай алкоголь
-
+        <span class="chord">Am</span>
+Плохой не трогай алкоголь,
+     <span class="chord">Em</span>
 Я заберу себе всю твою боль
-
+     <span class="chord">Dm</span>
 И за твоё тепло
+                              <span class="chord">Am</span>
+Отдам себя всего.
 
-Отдам себя всего
-
-И помни, если в пальцах дрожь
-
+     <span class="chord">Am</span>
+И помни, если в пальцах дрожь -
+     <span class="chord">Em</span>
 Я тоже попаду под тот же дождь
-
+       <span class="chord">Dm</span>
 Ты солнышко, и впредь
-
+                             <span class="chord">Am</span>
 Не дай мне умереть
 
 [Куплет 2]
+        <span class="chord">Am</span>
 Коснутся капли рук твоих
+      <span class="chord">Em</span>
 Завидую я им, я весь притих
+         <span class="chord">Dm</span>
 Мне хочется уплыть
+                            <span class="chord">Am</span>
 На месте их побыть
+
+     <span class="chord">Am</span>
 И вот пешком к тебе ползу
+       <span class="chord">Em</span>
 А смерчи носят на руках грозу
+           <span class="chord">Dm</span>
 Не страшно мне ничуть
+                              <span class="chord">Am</span>
 К тебе одной хочу
 
 [Припев]
+<span class="chord">Am</span>
 Дождь, не трожь мою любовь
+         <span class="chord">Em</span>
 Я спрятал далеко, ты не найдёшь
+     <span class="chord">Dm</span>
 О чём же ты молчишь?
+                           <span class="chord">Am</span>
 О чём поёшь, дождь?
+
 Дождь…
+</pre>
+  </div>
+</body>
+</html>

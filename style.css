@@ -8,12 +8,11 @@ html, body {
 body {
   min-height: 100vh;
 }
-
 body {
   background-color: #ECBADB;
   font-family: 'Comic Sans MS', sans-serif;
-  text-align: center;
-  padding: 40px;
+  text-align: center ;
+  padding: 10px 20px 20px 20px;
   background-image: url('картинки/fon.png'); /* можно заменить на свой */
   background-size: cover;
   background-repeat: no-repeat; 
@@ -73,7 +72,7 @@ h1 {
 
   h1 {
     font-size: 20px;
-    text-align: center;
+    text-align: cencer;
   }
 }
 
